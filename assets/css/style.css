@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5846f9;
+  background: #47aeff;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -57,7 +57,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #7b27d8;
+  background: #2730DA;
   color: #fff;
 }
 
@@ -688,6 +688,7 @@ section {
   width: 100px;
   transition: 0.5s;
   position: relative;
+  max-height: 300px;
 }
 
 .services .icon-box .icon svg {
@@ -953,7 +954,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #5846f9;
+  background: #47aeff;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -969,7 +970,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(88, 70, 249, 0.8);
+  background: rgba(71, 174, 255, 0.7);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -1223,7 +1224,7 @@ section {
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq {
-  background: linear-gradient(42deg, #5846f9 0%, #7b27d8 100%);
+  background: linear-gradient(42deg, rgba(79, 156, 249, 1) 0%, rgba(15, 25, 214, 0.9) 100%);
 }
 
 .faq .section-title h2,
@@ -1325,9 +1326,17 @@ section {
   background: #fff;
 }
 
+.contact .contato {
+  height: 165px;
+}
+
+.contact .contato p {
+  margin: 20px;
+}
+
 .contact .info-box i {
   font-size: 32px;
-  color: #5846f9;
+  color: #2730DA;
   border-radius: 50%;
   padding: 8px;
 }
@@ -1402,7 +1411,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #5846f9;
+  border-color: #2730DA;
 }
 
 .contact .php-email-form input {
@@ -1414,7 +1423,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #5846f9;
+  background: #2730DA;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1423,7 +1432,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #7b27d8;
+  background: #47aeff;
 }
 
 @keyframes animate-loading {
@@ -1497,7 +1506,7 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(79, 156, 249, 1) 0%, rgba(15, 25, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -1593,7 +1602,7 @@ section {
   border: 1px solid white;
 }
 
-#footer .footer-newsletter form input[type=email] {
+#footer .footer-newsletter form input[type=text] {
   border: 0;
   padding: 4px 8px;
   width: calc(100% - 100px);
@@ -1608,7 +1617,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: rgba(123, 39, 216, 0.8);
+  background: #2730DA;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 5px 5px 0;
@@ -1616,11 +1625,11 @@ section {
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #5846f9;
+  background: #47aeff;
 }
 
 #footer .copyright-wrap {
-  border-top: 1px solid #8577fb;
+  border-top: 1px solid #3c6387;
 }
 
 #footer .credits {
